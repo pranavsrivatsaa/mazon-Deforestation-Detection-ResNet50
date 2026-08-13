@@ -29,8 +29,7 @@ The fine-tuned model achieved exceptional classification performance across all 
 
 ![Confusion Matrix](confusion_matrix.png)
 <img width="790" height="812" alt="download" src="https://github.com/user-attachments/assets/626fe68e-354b-444c-b749-b2828d26915c" />
-<img width="790" height="812" alt="download" src="https://github.com/user-attachments/assets/784b0275-4e43-42b7-87f6-f3bc91e7c514" />
-<img width="1000" height="800" alt="confusion_matrix" src="https://github.com/user-attachments/assets/19fede14-d1f6-4f7c-898c-89dc84b43a30" />
+
 
 ---
 
@@ -38,6 +37,7 @@ The fine-tuned model achieved exceptional classification performance across all 
 Grid patches ($64 \times 64$ pixels) transitioning from `Forest` in 2018 to cleared land types (`Pasture`, `AnnualCrop`, `Industrial`, or `Residential`) in 2024 are highlighted with red bounding boxes.
 
 ![Deforestation Map](download.jpg)
+<img width="790" height="812" alt="download" src="https://github.com/user-attachments/assets/df9cb8b4-7bf3-4566-9ff3-3f7cee3e743c" />
 
 ---
 
