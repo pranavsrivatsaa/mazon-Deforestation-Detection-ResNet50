@@ -92,8 +92,10 @@ The detected deforestation events were validated against independent tree cover 
 |    ├─> Flag transitions: 'Forest' (2018) -> 'Crop/Pasture' (2024)       |
 |    └─> Benchmark against Global Forest Watch (GFW) reference data       |
 +-------------------------------------------------------------------------+
-```text
-📂 Repository Structure
+```
+
+## 📂 Repository Structure
+```
 ├── Deforestation_Research_Paper.pdf  # Complete formatted research paper (PDF)
 ├── Deforestation_Research_Paper.docx # Complete editable research paper (Word)
 ├── confusion_matrix.png              # EuroSAT model evaluation confusion matrix
@@ -101,7 +103,7 @@ The detected deforestation events were validated against independent tree cover 
 ├── notebook.ipynb                    # Google Colab notebook containing all executable code
 └── README.md                         # Project documentation
 ---
-
+```
 ## 🚀 Getting Started
 
 ### Prerequisites & Dependencies
