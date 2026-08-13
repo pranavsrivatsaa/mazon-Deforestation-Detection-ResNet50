@@ -1,0 +1,1 @@
+# mazon-Deforestation-Detection-ResNet50
