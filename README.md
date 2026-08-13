@@ -60,42 +60,38 @@ The detected deforestation events were validated against independent tree cover 
 ---
 
 ## ⚙️ Methodology & Pipeline Overview
+
+```text
 +-------------------------------------------------------------------------+
 |                           METHODOLOGY PIPELINE                          |
 +-------------------------------------------------------------------------+
 | 1. EuroSAT Dataset (27,000 images, 10 classes, 64x64 RGB)               |
 |    └─> Split: 80% Train | 10% Validation | 10% Test                     |
 +-------------------------------------------------------------------------+
-│
-▼
+                                     │
+                                     ▼
 | 2. Model Training & Fine-Tuning (ResNet50 + PyTorch)                    |
 |    ├─> Stage 1: Freeze base, train FC layer (10 epochs, lr=0.001)       |
 |    └─> Stage 2: Unfreeze all, fine-tune model (5 epochs, lr=0.0001)     |
 +-------------------------------------------------------------------------+
-│
-▼
+                                     │
+                                     ▼
 | 3. Satellite Data Acquisition (Google Earth Engine)                     |
 |    ├─> Location: Rondônia, Brazil [-63.05, -9.90, -62.75, -9.60]        |
 |    └─> Sentinel-2 RGB composites (10m resolution): 2018 vs. 2024        |
 +-------------------------------------------------------------------------+
-│
-▼
+                                     │
+                                     ▼
 | 4. Grid Patching & Model Inference                                      |
 |    ├─> Tile satellite composites into 64x64 pixel patches               |
 |    └─> Predict land cover class for map_2018 and map_2024               |
 +-------------------------------------------------------------------------+
-│
-▼
+                                     │
+                                     ▼
 | 5. Change Detection & Validation                                        |
 |    ├─> Flag transitions: 'Forest' (2018) -> 'Crop/Pasture' (2024)       |
 |    └─> Benchmark against Global Forest Watch (GFW) reference data       |
 +-------------------------------------------------------------------------+
-
-
----
-
-## 📂 Repository Structure
-
 .
 ├── Deforestation_Research_Paper.pdf  # Complete formatted research paper (PDF)
 ├── Deforestation_Research_Paper.docx # Complete editable research paper (Word)
@@ -103,8 +99,6 @@ The detected deforestation events were validated against independent tree cover 
 ├── download.jpg                      # Satellite map highlighting 22 deforestation events
 ├── notebook.ipynb                    # Google Colab notebook containing all executable code
 └── README.md                         # Project documentation
-
-
 ---
 
 ## 🚀 Getting Started
