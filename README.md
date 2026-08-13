@@ -28,6 +28,9 @@ This repository applies the pipeline to **Rondônia, Brazil**, a major deforesta
 The fine-tuned model achieved exceptional classification performance across all 10 EuroSAT classes, demonstrating near-perfect discrimination for `Forest` (306/312) and `SeaLake` (297/300).
 
 ![Confusion Matrix](confusion_matrix.png)
+<img width="790" height="812" alt="download" src="https://github.com/user-attachments/assets/626fe68e-354b-444c-b749-b2828d26915c" />
+<img width="790" height="812" alt="download" src="https://github.com/user-attachments/assets/784b0275-4e43-42b7-87f6-f3bc91e7c514" />
+<img width="1000" height="800" alt="confusion_matrix" src="https://github.com/user-attachments/assets/19fede14-d1f6-4f7c-898c-89dc84b43a30" />
 
 ---
 
